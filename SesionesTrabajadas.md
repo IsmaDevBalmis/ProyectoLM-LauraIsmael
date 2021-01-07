@@ -12,3 +12,8 @@
 -Creo la base del formulario
 -Le añado el display flex a falta de conseguir centrarlo e la página
 -Dejo el header con el tamaño para implementar el menú de navegación
+
+07/01/2021 *Laura*
+- Modifico index.html
+- Añado los primeros retoques al indice.
+- Creo el contenedor padre para el flexbox.

@@ -17,6 +17,29 @@ dejarlo como menú de navegación.
 
 */
 
+.contenedorpadre{  
+  display: flex;
+}
+.navIndex{
+  display: flex;
+  background-image: url(fondomain.jpg);
+  background-repeat: no-repeat;  
+  background-size: 100%;
+  padding: 10px;
+}
+.navIndex a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navIndex a:hover {
+  background-color:bisque;
+  color: black;
+}
+
 nav {
     width: 100vw;
     height: 10vh;
