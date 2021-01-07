@@ -1,3 +1,11 @@
+<?php
+
+  require ('sources/bd/conexion.php');
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,8 +19,9 @@
         <header>
           <img src="sources/img/logo.png" alt="logo">
           <div class="navIndex">
+          <a href="index.php">Inicio</a>
           <a href="#">Sobre nosotros</a>
-          <a href="pages/reservas.html">Reserva</a>
+          <a href="pages/reservas.php">Reserva</a>
           <a href="#">Galería</a>
           <a href="#">Carta</a>
           </div>

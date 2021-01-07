@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,23 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/reservas.css">
-    <title>Document</title>
+    <title>Lauris Coffe</title>
 </head>
 
 <body>
     <main>
 
-      
-        <header>
-            <img src="../sources/img/logo.png" alt="logo">
-            <div class="navIndex">
-            <a href="../index.html">Inicio</a>
-            <a href="#">Sobre nosotros</a>
-            <a href="reservas.html">Reserva</a>
-            <a href="#">Galería</a>
-            <a href="#">Carta</a>
-            </div>
-          </header>
+
+
+       <?php
+         require ('headers/header.html');
+        ?>
 
 
 
@@ -33,8 +30,8 @@
                 <input type="text">
                 <label for="">Fecha</label>
                 <input type="date">
-                <label for="">Hora</label>
-                <input type="time">
+                <label for="">Telefono</label>
+                <input type="number">
                 <label for="">Email</label>
                 <input type="email">
                 <label for="">Número personas</label>

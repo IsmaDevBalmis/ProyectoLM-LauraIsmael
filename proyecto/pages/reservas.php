@@ -12,17 +12,10 @@
 <body>
     <main>
 
-      
-        <header>
-            <img src="../sources/img/logo.png" alt="logo">
-            <div class="navIndex">
-            <a href="../index.html">Inicio</a>
-            <a href="#">Sobre nosotros</a>
-            <a href="reservas.html">Reserva</a>
-            <a href="#">Galería</a>
-            <a href="#">Carta</a>
-            </div>
-          </header>
+
+       <?php
+         require ('header.html');
+        ?>
 
 
 
