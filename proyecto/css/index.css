@@ -58,6 +58,10 @@ dejarlo como menú de navegación.
   background-color:bisque;
   color: black;
 }
+footer {
+  text-align: right;
+  background: #ddd;
+}
 
 nav {
     width: 100vw;
