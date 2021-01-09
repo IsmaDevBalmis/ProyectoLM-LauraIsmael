@@ -19,6 +19,18 @@
 {
   font-family: "Homer Simpson UI";
   color: black;
+  text-align:center;
+}
+.bordes {
+  padding: 3px 10px;
+  border: #AF793D; 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.contenedorelementos
+{
+  flex-direction: row;
+  background-color: #78522B;
 }
 .contenedorpequeño {
   flex: 30%;
