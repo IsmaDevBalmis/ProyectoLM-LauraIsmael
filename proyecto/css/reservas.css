@@ -1,15 +1,27 @@
 section{
-    display: flex;
+
     width: 15vw;
     height: 90vh;
     /*align-content: center;*/
 }
 
 
+.formulario{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 21vw;
+  height: 45vh;
+  padding: 3%;
+  box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+
 form{
     justify-content: center;
-    flex-direction: column;
+
     align-items:center;
+    display: table;
 }
 
 label{
@@ -25,21 +37,21 @@ input{
     width: 320px;
     height: 30px;
 
-    
+
 
 }
 
 
 .btn-Enviar{
 
-    width: 70px;
-    height: 40px;
+    /*width: 70px;
+    height: 40px;*/
     background: rgba(0,255,0,0.2);
     border-radius: 15px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-family: 'Dancing Script', cursive;
-  
-  
-  
+
+
+
   }
