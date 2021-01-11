@@ -36,6 +36,9 @@ dejarlo como menú de navegación.
 
 .contenedorpadre{
   display: flex;
+  background: -webkit-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: -o-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: linear-gradient(to right, #78522B 10%, #DCAE23 90%);
 }
 .navIndex{
   background-size: 100%;
