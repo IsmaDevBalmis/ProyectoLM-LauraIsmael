@@ -1,7 +1,6 @@
 .contenedorpadre{
   padding: 3%;
   display:flex;
-  flex-direction: column;
   justify-content: center;
   background: -webkit-linear-gradient(left, #78522B 10%, #DCAE23 90%);
   background: -o-linear-gradient(left, #78522B 10%, #DCAE23 90%);
@@ -10,14 +9,14 @@
 }
 .tablaencabezado
 {
-  align-items: center;
-  justify-content: center;
   box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.2);
+  border:2px;
 }
 .img
 {
   max-height: 120px;
   max-width: 120px;
+  justify-content: center;
 }
 .img a:hover{
   background-color:bisque;
@@ -25,25 +24,23 @@
 }
 .titulo
 {
-  align-items: center;
-  font-family: 'BE MARKER Ink', arial;
-  border: 1px dotted #ff8833;
-  border-color: black;
   text-align: center;
-  min-width: 30vw;
+  font-family: sans-serif;
+  border: 1px dotted #ff8833;
   text-shadow: 5px 5px 5px #000000;
   box-shadow: 15px 10px 5px #987846;
 }
 .titulo2
 {
-  font-family: '20 CENTS MARKER Bold', arial;
+  font-family: fantasy;
   color: black;
   text-align:center;
   text-shadow: 8px 8px 8px #000000;
 }
 .titulo3
 {
-  font-family: '20 CENTS MARKER Bold', arial;
+  font-family: monospace;
+  font-size: 18px;
   color: black;
   text-align: left;
   text-shadow: 10px 10px 10px #000000;
@@ -58,17 +55,20 @@
 {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .tabla
 {
-flex-direction: column;
-align-items: center;
 display:table;
 background-color: #78522B;
 border:1px;
 box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.2);
 }
-
+.textos
+{
+  text-decoration: underline;
+  font-family: fantasy;
+}
 .contenedorpequeño {
   flex: 30%;
   flex-direction: row;

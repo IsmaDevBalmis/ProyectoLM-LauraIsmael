@@ -25,14 +25,6 @@ hay que modificiar la altura de la imagen
   height: 20vh;
 
 }*/
-/*
-
-El nav que tengo ahora puesto es para el hueco del menú de
-navegación tenerlo visible de momento
-Habrá que cambiar las etiquetas para
-dejarlo como menú de navegación.
-
-*/
 
 .contenedorpadre{
   display: flex;
@@ -43,22 +35,24 @@ dejarlo como menú de navegación.
 .navIndex{
   background-size: 100%;
   padding: 10px;
-  background: rgba(255, 0, 0, 0.5);
+  background: -webkit-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: -o-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: linear-gradient(to right, #78522B 10%, #DCAE23 90%);
   width: 40%;
   align-items: center;
-
+  opacity: 0.85;
 
 }
 .navIndex a {
   color: white;
   padding: 14px 20px;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
 }
 
 
 .navIndex a:hover {
-  background-color:bisque;
+  background-color:#AF793D;
   color: black;
 }
 footer {
