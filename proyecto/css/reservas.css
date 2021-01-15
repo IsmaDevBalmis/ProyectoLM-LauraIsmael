@@ -1,3 +1,10 @@
+
+body{
+  background: -webkit-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: -o-linear-gradient(left, #78522B 10%, #DCAE23 90%);
+  background: linear-gradient(to right, #78522B 10%, #DCAE23 90%);
+}
+
 section{
 
     width: 15vw;
