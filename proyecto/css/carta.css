@@ -1,3 +1,8 @@
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
 .contenedorpadre{
   padding: 3%;
   display:flex;
@@ -18,17 +23,14 @@
   max-width: 120px;
   justify-content: center;
 }
-.img a:hover{
-  background-color:bisque;
-  color: black;
-}
+
+
 .titulo
 {
   text-align: center;
   font-family: sans-serif;
   border: 1px dotted #ff8833;
   text-shadow: 5px 5px 5px #000000;
-  box-shadow: 15px 10px 5px #987846;
 }
 .titulo2
 {
@@ -41,7 +43,7 @@
 {
   font-family: monospace;
   font-size: 18px;
-  color: black;
+  color: #99FF99;
   text-align: left;
   text-shadow: 10px 10px 10px #000000;
 }
@@ -68,6 +70,7 @@ box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.2);
 {
   text-decoration: underline;
   font-family: fantasy;
+  border:2px;
 }
 .contenedorpequeño {
   flex: 30%;
