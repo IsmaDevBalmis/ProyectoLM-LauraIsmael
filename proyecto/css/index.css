@@ -98,10 +98,24 @@ hay que modificiar la altura de la imagen
 {
   font-family:'Hachi Maru Pop', cursive;
 }
+.tablaencabezado
+{
+  box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.2);
+  border:2px;
+}
+.titulo3
+{
+  font-family: monospace;
+  font-size: 18px;
+  color: #99FF99;
+  text-align: left;
+  text-shadow: 10px 10px 10px #000000;
+}
 .textos
 {
   font-family: 'Sofia', cursive;
   font-size: 18px;
+  text-shadow: 10px 10px 10px #000000;
 }
 .navIndex a {
   color: white;
