@@ -3,6 +3,10 @@
     flex-direction: column;
   }
 }
+@font-face {
+font-family:  'Hachi Maru Pop', cursive;
+src: url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+}
 body{
     margin: 0px;
 }
@@ -89,7 +93,15 @@ hay que modificiar la altura de la imagen
   width: 40%;
   align-items: center;
   opacity: 0.85;
-
+}
+.titulo1
+{
+  font-family:'Hachi Maru Pop', cursive;
+}
+.textos
+{
+  font-family: 'Sofia', cursive;
+  font-size: 18px;
 }
 .navIndex a {
   color: white;
